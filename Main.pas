@@ -9,7 +9,6 @@ type
   listenElement = record
   next:listenRefElement;
     value:Real;
-    name:string;
   before:listenRefElement;
   end;
   
@@ -30,11 +29,11 @@ tmp := ListenBegin;
   end;
 end;
   
-  Procedure add;
+Procedure add;
   
   var
     akt:listenRefElement;
-    
+  
   
   begin
     New(akt);
@@ -46,7 +45,6 @@ end;
 begin
   new(ListenBegin);
   ListenBegin^.value := 1;
-  ListenBegin^.name := 'abc';
   ListenBegin^.before := nil;
   
   add();
