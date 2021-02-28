@@ -398,6 +398,6 @@ begin
       ReadLn(bef);
     end;
   end;
-
+  
 
 end.

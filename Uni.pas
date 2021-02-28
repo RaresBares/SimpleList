@@ -277,6 +277,4 @@ begin
     end;
     readln(befehl);
   end;
-
-
 end.

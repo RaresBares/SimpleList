@@ -7,6 +7,7 @@ type
   tRefListe = ^tListe;
   tListe = record
     zahl:integer;
+    bef:string;
     next:tRefListe;
   end;
 
